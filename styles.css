@@ -1,0 +1,236 @@
+
+/*--- Cas general ---*/
+
+@font-face
+{
+	font-family: "ballpark";
+	src :url("polices/ballpark.eot") format("eot"),
+		 url("polices/ballpark.ttf") format("ttf"),
+		 url("polices/ballpark.woff") format("woff"),
+		 url("polices/ballpark.svg") format("svg");
+}
+@font-face
+{
+	font-family: "dayrom";
+	src : url("polices/dayrom.eot")format("eot"),
+		  url("polices/dayrom.svg")format("svg"),
+		  url("polices/dayrom.ttf")format("ttf"),
+		  url("polices/dayrom.woff")format("woff");			
+}
+body
+{
+	background-image: url(images/fond_jaune.png);
+}
+.container
+{
+	height: 100%;
+	width: 71.3%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}
+*
+{
+	list-style: none;
+}
+li a
+{
+	text-decoration: none;
+}
+
+/*-- Header--*/
+
+header
+{
+	height: 110px;
+}
+header nav 
+{
+	padding: 0;
+	margin: 0;
+}
+header nav li
+{
+	display: inline;
+}
+header nav a
+{
+	display: inline-block;
+	margin: 0 5px;
+	text-transform: uppercase;
+	font-size: 21px;
+	color: #00001b;
+	position: relative;
+	left: 58%;
+	top: -160px;
+	font-family: "dayrom";
+}
+header h1
+{
+	position: relative ;
+	top: -80px;
+	left: 75px;
+	font-family: "ballpark";
+	font-size: 50px;
+}
+.logo
+{
+	position: relative;
+	left: 25px;
+}
+header p
+{
+	font-family: "dayrom";
+	font-size: 18px;
+	margin-left: 25px;
+	position: relative;
+	top: -109px;
+}
+
+/*--- Separateur1 ---*/
+
+.separateur
+{
+	position: relative;
+	top: -10px;
+	left: 25px ;
+}
+
+/*-- Baniere--*/
+
+.baniere
+{
+	width: 95%;
+	margin-left: 25px;
+} 
+.baniere img
+{
+	width: 100%;
+	border-radius: 7px;
+}
+
+/*-- Legende Banniere --*/
+	
+.legende_ban
+{
+	margin-left: 25px;
+	width: 95%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	top: -66px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.legende_ban p
+{
+	font-family: arial;
+	font-size: 13px;
+	position: relative;
+	top: 15px;
+	color: #fff;
+	left: 2px;
+}
+.legende_ban button
+{
+	float: right;
+	position: relative;
+	top: -15px;
+	left: -6px;
+	height: 30px;
+	font-size: 15px;
+	width: 110px;
+	background-color: #871e20;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+.legende_ban img
+{
+	position: relative;
+	left: 5px;
+}
+
+/*-- Article --*/
+
+.artcl
+{
+	display: flex;
+	width: 370px;
+}
+.artcl img
+{
+	width: 45px;
+	height: 45px;
+}
+.artcl h1
+{
+	text-transform: uppercase;
+	font-family: dayrom;
+	font-size: 18px;
+	margin-right: 20px;
+	height: 20px;
+	position: relative;
+	top: -5px;
+	left: 7px;
+}
+article
+{
+ 	margin-left: 25px;
+ 	margin-right: 25px;
+ 	top: -20px;
+ 	position: relative;
+ 	width: 640px;
+ 	text-align: justify;
+}
+article p
+{
+	font-size: 13px;
+	font-family: "Trebuchet MS";
+}
+
+/*-- Aside --*/
+
+aside
+{
+	width: 250px;
+	text-align: justify;
+	padding: 10px 10px 30px 10px ;
+	font-family: arial;
+	border-radius: 5px;
+	background-color: #706b64;
+	color: #fff;
+	float: right;
+	/*margin-right: 25px;*/
+	position: relative;
+	top: -495px;
+	right: 23px;
+}
+aside h1
+{
+	font-family: dayrom;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+aside p
+{
+	font-size: 13px;
+	font-family: "Trebuchet MS";
+}
+.imageZ
+{
+	text-align: center;
+}
+.bulle
+{
+	position: absolute;
+	left: 20px;
+}
+
+
+
+
+
+
+
+
