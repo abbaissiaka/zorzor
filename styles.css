@@ -20,14 +20,16 @@
 body
 {
 	background-image: url(images/fond_jaune.png);
+	display: block;
+    margin: 8px;
+
 }
 .container
 {
-	height: 100%;
-	width: 71.3%;
+	height: 990px;
+	width: 72%;
 	margin-right: auto;
 	margin-left: auto;
-	border: 1px solid black;
 }
 *
 {
@@ -94,6 +96,11 @@ header p
 	position: relative;
 	top: -10px;
 	left: 25px ;
+	background-image: url(images/separateur.png);
+	height: 3px;
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 /*-- Baniere--*/
@@ -130,6 +137,7 @@ header p
 	top: 15px;
 	color: #fff;
 	left: 2px;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 .legende_ban button
 {
@@ -144,6 +152,7 @@ header p
 	color: #fff;
 	border: none;
 	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 .legende_ban img
 {
@@ -187,13 +196,14 @@ article p
 {
 	font-size: 13px;
 	font-family: "Trebuchet MS";
+	width: 630px;
 }
 
 /*-- Aside --*/
 
 aside
 {
-	width: 250px;
+	width: 240px;
 	text-align: justify;
 	padding: 10px 10px 30px 10px ;
 	font-family: arial;
@@ -201,10 +211,9 @@ aside
 	background-color: #706b64;
 	color: #fff;
 	float: right;
-	/*margin-right: 25px;*/
 	position: relative;
-	top: -495px;
-	right: 23px;
+	top: -450px;
+	right: 20px;
 }
 aside h1
 {
@@ -214,19 +223,125 @@ aside h1
 }
 aside p
 {
-	font-size: 13px;
+	font-size: 14px;
 	font-family: "Trebuchet MS";
 }
 .imageZ
 {
 	text-align: center;
 }
+.imageZ img
+{
+	border: 1px solid black;
+}
 .bulle
 {
-	position: absolute;
-	left: 20px;
+	position: relative;
+	right: 22px;
+	top: -77px;
 }
 
+/*-- Separateur2 --*/
+
+.separateur2
+{
+	background-image: url(images/separateur.png);
+	position: relative;
+	top: -10px;
+	left: 25px ;
+	background-image: url(images/separateur.png);
+	height: 3px;
+	width: 95%;
+	margin-top: 25px;
+	/*margin-bottom: 5px;*/
+}
+.ico_top
+{
+	position: relative;
+	left: 453px;
+	top: -14px;
+}
+
+/*-- Footer --*/
+
+.row
+{
+	height: 140px;
+}
+footer .tweet
+{
+	width: 28%;
+	margin-left: 25px;
+	position: relative;
+	top: -15px;
+}
+.tweet p
+{
+	font-family: Trebuchet MS;
+	font-size: 13px;
+}
+footer .photos
+{
+	width: 32%;
+	float: right;
+	position: relative;
+	top: -123px;
+	right: 90px;
+}
+footer .amis
+{
+	position: relative;
+	width: 36%;
+	left: 600px;
+	top: -113px;
+}
+.amis h1
+{
+	margin-left: 22px;
+}
+footer h1
+{
+	font-family: dayrom;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.ul_amis
+{
+	display: flex;
+}
+.amis_un
+{
+	width: 25%;
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	position: relative;
+	top: -1px;
+	left: -25px;
+}
+.amis_un li img
+{
+	position: relative;
+    left: -5px;
+}
+.amis_deux li img
+{
+	position: relative;
+    left: -5px;
+}
+.amis_deux 
+{
+	position: relative;
+	right: 40px;
+	width: 40%;
+	font-size: 13px;
+	font-family: Trebuchet MS;
+	top: -1px;
+	left: 20px;
+}
+.photo_int img
+{
+	border: 1px solid black;
+}
 
 
 
